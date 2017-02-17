@@ -8,6 +8,8 @@
 
         public string Name { get; set; }
 
-        public ICollection<Feedback> Feedbacks { get; set; }
+        public string Description { get; set; }
+
+        public virtual ICollection<Feedback> Feedbacks { get; set; }
     }
 }

@@ -12,6 +12,6 @@
 
         public string Email { get; set; }
 
-        public ICollection<Group> Groups { get; set; }
+        public virtual ICollection<Group> Groups { get; set; }
     }
 }

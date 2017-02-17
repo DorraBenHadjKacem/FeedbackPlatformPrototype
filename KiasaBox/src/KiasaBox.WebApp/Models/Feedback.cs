@@ -17,10 +17,10 @@
 
         public Privacy Privacy { get; set; }
 
-        public ICollection<Group> Groups { get; set; }
+        public Category Category { get; set; }
 
-        public ICollection<Topic> Topics { get; set; }
-        
-        public ICollection<Category> Categories { get; set; }
+        public virtual ICollection<Group> Groups { get; set; }
+
+        public virtual ICollection<Topic> Topics { get; set; }
     }
 }

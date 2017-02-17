@@ -1,13 +1,11 @@
 ﻿namespace KiasaBox.WebApp.Models
 {
-    using System.Collections.Generic;
-    
-    public class Category
+    public enum Category
     {
-        public int Id;
+        // Area of strength
+        Strength = 0,
 
-        public string Name { get; set; }
-
-        public ICollection<Feedback> Feedbacks { get; set; }
+        // Area of development
+        Weakness = 1       
     }
 }
